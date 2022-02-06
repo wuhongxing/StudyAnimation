@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B7E5ED127AF5873007B50A1 /* Demo1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7E5ED027AF5873007B50A1 /* Demo1.swift */; };
+		1B7E5ED327AF5E14007B50A1 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7E5ED227AF5E14007B50A1 /* TestView.swift */; };
+		1B7E5ED527AF5E7C007B50A1 /* Demo2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7E5ED427AF5E7C007B50A1 /* Demo2.swift */; };
+		1B7E5ED727AF6EDE007B50A1 /* Demo3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7E5ED627AF6EDE007B50A1 /* Demo3.swift */; };
+		1B7E5ED927AF7463007B50A1 /* Demo4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7E5ED827AF7463007B50A1 /* Demo4.swift */; };
+		1B7E5EDB27AF9D64007B50A1 /* Demo5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7E5EDA27AF9D64007B50A1 /* Demo5.swift */; };
 		1B94C269276DF359009835CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B94C268276DF359009835CC /* AppDelegate.swift */; };
 		1B94C26B276DF359009835CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B94C26A276DF359009835CC /* SceneDelegate.swift */; };
 		1B94C26D276DF359009835CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B94C26C276DF359009835CC /* ViewController.swift */; };
@@ -16,8 +22,6 @@
 		1B94C280276DF35A009835CC /* StudyAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B94C27F276DF35A009835CC /* StudyAnimationTests.swift */; };
 		1B94C28A276DF35A009835CC /* StudyAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B94C289276DF35A009835CC /* StudyAnimationUITests.swift */; };
 		1B94C28C276DF35A009835CC /* StudyAnimationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B94C28B276DF35A009835CC /* StudyAnimationUITestsLaunchTests.swift */; };
-		1B94C299276DFC5F009835CC /* MaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B94C298276DFC5F009835CC /* MaskViewController.swift */; };
-		1B94C29B276F627D009835CC /* TimingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B94C29A276F627D009835CC /* TimingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B7E5ED027AF5873007B50A1 /* Demo1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo1.swift; sourceTree = "<group>"; };
+		1B7E5ED227AF5E14007B50A1 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		1B7E5ED427AF5E7C007B50A1 /* Demo2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo2.swift; sourceTree = "<group>"; };
+		1B7E5ED627AF6EDE007B50A1 /* Demo3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo3.swift; sourceTree = "<group>"; };
+		1B7E5ED827AF7463007B50A1 /* Demo4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo4.swift; sourceTree = "<group>"; };
+		1B7E5EDA27AF9D64007B50A1 /* Demo5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo5.swift; sourceTree = "<group>"; };
 		1B94C265276DF359009835CC /* StudyAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B94C268276DF359009835CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B94C26A276DF359009835CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,8 +61,6 @@
 		1B94C285276DF35A009835CC /* StudyAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudyAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B94C289276DF35A009835CC /* StudyAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyAnimationUITests.swift; sourceTree = "<group>"; };
 		1B94C28B276DF35A009835CC /* StudyAnimationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyAnimationUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		1B94C298276DFC5F009835CC /* MaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskViewController.swift; sourceTree = "<group>"; };
-		1B94C29A276F627D009835CC /* TimingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,15 +111,19 @@
 		1B94C267276DF359009835CC /* StudyAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				1B7E5ED227AF5E14007B50A1 /* TestView.swift */,
 				1B94C268276DF359009835CC /* AppDelegate.swift */,
 				1B94C26A276DF359009835CC /* SceneDelegate.swift */,
 				1B94C26C276DF359009835CC /* ViewController.swift */,
+				1B7E5ED027AF5873007B50A1 /* Demo1.swift */,
+				1B7E5ED427AF5E7C007B50A1 /* Demo2.swift */,
+				1B7E5ED627AF6EDE007B50A1 /* Demo3.swift */,
+				1B7E5ED827AF7463007B50A1 /* Demo4.swift */,
+				1B7E5EDA27AF9D64007B50A1 /* Demo5.swift */,
 				1B94C26E276DF359009835CC /* Main.storyboard */,
 				1B94C271276DF35A009835CC /* Assets.xcassets */,
 				1B94C273276DF35A009835CC /* LaunchScreen.storyboard */,
 				1B94C276276DF35A009835CC /* Info.plist */,
-				1B94C298276DFC5F009835CC /* MaskViewController.swift */,
-				1B94C29A276F627D009835CC /* TimingViewController.swift */,
 			);
 			path = StudyAnimation;
 			sourceTree = "<group>";
@@ -264,11 +276,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B7E5ED127AF5873007B50A1 /* Demo1.swift in Sources */,
+				1B7E5ED527AF5E7C007B50A1 /* Demo2.swift in Sources */,
+				1B7E5ED327AF5E14007B50A1 /* TestView.swift in Sources */,
 				1B94C26D276DF359009835CC /* ViewController.swift in Sources */,
-				1B94C29B276F627D009835CC /* TimingViewController.swift in Sources */,
+				1B7E5ED727AF6EDE007B50A1 /* Demo3.swift in Sources */,
 				1B94C269276DF359009835CC /* AppDelegate.swift in Sources */,
-				1B94C299276DFC5F009835CC /* MaskViewController.swift in Sources */,
+				1B7E5EDB27AF9D64007B50A1 /* Demo5.swift in Sources */,
 				1B94C26B276DF359009835CC /* SceneDelegate.swift in Sources */,
+				1B7E5ED927AF7463007B50A1 /* Demo4.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
