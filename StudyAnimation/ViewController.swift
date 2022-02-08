@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    private lazy var dataSource = ["开锁", "水波纹", "loading", "progress", "文字渐变"]
+    private lazy var dataSource = ["开锁", "水波纹", "loading", "progress", "文字渐变", "Pie", "图片展开"]
     
     private lazy var tableView: UITableView = {
         let tableView = UITableView(frame: UIScreen.main.bounds)
@@ -46,6 +46,8 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         case 2: Demo3(view).loading()
         case 3: Demo4(view).progress()
         case 4: Demo5(view).gradient()
+        case 5: Pie(view).drawPie()
+        case 6: Demo6(view).open()
         default: break
         }
     }
